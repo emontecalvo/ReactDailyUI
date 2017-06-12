@@ -12,7 +12,7 @@ About 3/4 of the way through creating 15-minute designs in Sketch (some I loved,
 
 
 ### LIVE SITE:
-* https://emontecalvo.github.io/react_dailyui
+* coming soon
 
 
 ### Setup Instructions:
@@ -46,6 +46,9 @@ About 3/4 of the way through creating 15-minute designs in Sketch (some I loved,
  	- [] Days 91-100
  - [] Continue to refactor the code as patterns emerge
  - [] Deploy live to the web
+
+  #### Hierarchy / Layout
+  * coming soon
 
 
   *Thanks for reading!*
