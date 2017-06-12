@@ -55,6 +55,11 @@ About 3/4 of the way through creating 15-minute designs in Sketch (some I loved,
  
  ~ Emily
 
+ P.S.  Feel free to also checkout my DailyUI project built in Unity with C#:
+ * Github repo:  https://github.com/emontecalvo/UnityDailyUI
+ * Live site:  coming soon
+ 
+
 
 
 
