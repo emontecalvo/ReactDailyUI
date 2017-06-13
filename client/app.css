@@ -29,14 +29,51 @@ body {
 }
 
 .Day1Div input {
-	width: 194px;
+	border: 0;
+  outline: 0;
+  background: transparent;
+	width: 165px;
 	height: 40px;
+}
+
+.Day1Div i {
+	width: 20px;
+	text-align: center;
+	margin-right: 5px;
 }
 
 .Day1Div button {
 	width: 200px;
 	height: 40px;
 }
+
+.Day1Div button:hover {
+	transform: scale(1.02);
+}
+
+.day1input {
+	 border-bottom: 1px solid black;
+}
+
+.day1input i {
+	opacity: .5;
+}
+
+.day1input:hover i {
+	opacity: 1;
+	transition: opacity .5s ease;
+}
+
+.Day1Btn {
+	text-align: center;
+}
+
+.Day1Btn i {
+	margin: 0;
+}
+
+
+
 
 
 
