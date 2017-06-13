@@ -35,7 +35,7 @@ const initialState = {
 		false, false, false, false, false, false, false, false, false, false						
 	],
 	showHome: true,
-	currentDay: "Day1"
+	Day1B: false
 }
 	
 const reducer = (state, action) => {
@@ -48,8 +48,14 @@ const reducer = (state, action) => {
 		return {...state}
 	}
 
+	if (action.type === 'VIEW_DAY_ONE_B') {
+		state.Day1B = true;
+		return {...state}
+	}
+
 	if (action.type === 'SHOW_HOME') {
 		state.showHome = true;
+		state.Day1B = false;
 		let notFoundIt = true;
 		let counter = 0;
 		while (notFoundIt) {
@@ -62,19 +68,6 @@ const reducer = (state, action) => {
 		}
 		return {...state}
 	}
-	// if (action.type === 'SORT_FACTS') {
-	// 	let sortedFacts = [];
-
-	// 	for (let i = 0; i < state.picCombo.length; i++) {
-	// 		sortedFacts.push(state.picCombo[i]);
-	// 	}
-
-	// 	sortedFacts.sort(function(a, b) {
-	// 		return a[1].length - b[1].length;
-	// 	});
-
-	// 	return {...state, picCombo: sortedFacts}
-	// }
 
 	return state;
 }

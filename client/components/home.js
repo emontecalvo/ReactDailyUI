@@ -12,8 +12,8 @@ import DaysSeventies from './daysSeventies';
 import DaysEighties from './daysEighties';
 import DaysNineties from './daysNineties';
 
-import Day1 from './daysOneToTen/day1';
-
+// import Day1 from './daysOneToTen/day1';
+import Day1Container from './daysOneToTen/day1container';
 
 class Home extends React.Component {
 
@@ -60,7 +60,7 @@ class Home extends React.Component {
       } else if (this.props.dailyUIs[0]) {
         return (
           <div>
-            <Day1 />
+            <Day1Container />
           </div>
         )
       }
