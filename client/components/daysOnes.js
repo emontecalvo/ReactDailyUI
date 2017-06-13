@@ -5,12 +5,16 @@ import * as actions from '../actions/actions';
 
 class DaysOnes extends React.Component {
 
-  render() { 
+  dayOne() {
+    this.props.dispatch(actions.view_day_one());
+  }
+
+  render() {
     return (
       <div>
         <h3>Day 001-010 </h3>
         <ul>
-          <button>DailyUI 001 - "Sign-up"</button>
+          <button onClick={() => this.dayOne()}>DailyUI 001 - "Sign-up"</button>
           <button>DailyUI 002 - "Checkout"</button>
           <button>DailyUI 003 - "Landing Page"</button>
           <button>DailyUI 004 - "Calculator"</button>
@@ -28,5 +32,6 @@ class DaysOnes extends React.Component {
   }
 }
 
-
-export default DaysOnes;
+export default connect((state, props) => ({
+  showHome: state.showHome,
+}))(DaysOnes);

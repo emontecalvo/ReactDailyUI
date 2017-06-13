@@ -12,52 +12,63 @@ import DaysSeventies from './daysSeventies';
 import DaysEighties from './daysEighties';
 import DaysNineties from './daysNineties';
 
+import Day1 from './daysOneToTen/day1';
+
+
 class Home extends React.Component {
 
-  render() { 
-    return (
-      <div>
-        <h1>welcome to the daily ui</h1>
-        <div className="dailyUIs">
+  render() {
+    if (this.props.showHome) {
+      return (
+        <div>
+          <h1>welcome to the daily ui</h1>
+          <div className="dailyUIs">
 
-          <div className="days-by-tens">
-            <DaysOnes />
+            <div className="days-by-tens">
+              <DaysOnes />
+            </div>
+            <div className="days-by-tens">
+              <DaysTeens />
+            </div>
+            <div className="days-by-tens">
+              <DaysTwenties />
+            </div>
+            <div className="days-by-tens">
+              <DaysThirties />
+            </div>
+            <div className="days-by-tens">
+              <DaysForties />
+            </div>
+            <div className="days-by-tens">
+              <DaysFifties />
+            </div>
+            <div className="days-by-tens">
+              <DaysSixties />
+            </div>
+            <div className="days-by-tens">
+              <DaysSeventies />
+            </div>
+            <div className="days-by-tens">
+              <DaysEighties />
+            </div>
+            <div className="days-by-tens">
+              <DaysNineties />
+            </div> 
           </div>
-          <div className="days-by-tens">
-            <DaysTeens />
-          </div>
-          <div className="days-by-tens">
-            <DaysTwenties />
-          </div>
-          <div className="days-by-tens">
-            <DaysThirties />
-          </div>
-          <div className="days-by-tens">
-            <DaysForties />
-          </div>
-          <div className="days-by-tens">
-            <DaysFifties />
-          </div>
-          <div className="days-by-tens">
-            <DaysSixties />
-          </div>
-          <div className="days-by-tens">
-            <DaysSeventies />
-          </div>
-          <div className="days-by-tens">
-            <DaysEighties />
-          </div>
-          <div className="days-by-tens">
-            <DaysNineties />
-          </div>
-                                                  
         </div>
-
-      </div>
-
-    )
+        )
+      } else if (this.props.dailyUIs[0]) {
+        return (
+          <div>
+            <Day1 />
+          </div>
+        )
+      }
+    }
   }
-}
 
 
-export default Home;
+export default connect((state, props) => ({
+  dailyUIs: state.dailyUIs,
+  showHome: state.showHome
+}))(Home);
