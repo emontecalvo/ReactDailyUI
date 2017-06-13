@@ -11,24 +11,21 @@ class Day1 extends React.Component {
 
   render() { 
     return (
-      <div>
-        <div>
-        	<form onSubmit={(e) => {
-        		e.preventDefault() }}>
-        		<input type="text" placeholder="name" name="name" />
-        		<input type="email" placeholder="email" name="email" />
-        		<input type="password" placeholder="password" />
-        		<button type="submit">sign me up!</button>
-        	</form>
+      <div className="PHONEDIV">
+        <div className="Day1Div">
+          <div className="input">
+          	<form onSubmit={(e) => {
+          		e.preventDefault() }}>
+              <input type="text" placeholder="name" name="name" />
+          		<input type="email" placeholder="email" name="email" />
+          		<input type="password" placeholder="password" />
+          		<button type="submit">sign me up!</button>
+              <button className="Day1Btn" onClick={() => this.showHome()}>back to all UI's</button>
+          	</form>
+          </div>
 
-        </div>
-
-
-        <div>
-        	<button onClick={() => this.showHome()}>back to all UI's</button>
         </div>
       </div>
-
     )
   }
 }

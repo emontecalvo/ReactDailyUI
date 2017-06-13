@@ -2,3 +2,45 @@ body {
   background-color: papayawhip;
 }
 
+.PHONEDIV {
+	position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 360px;
+  height: 640px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+.Day1Div {
+	/*center div*/
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+.Day1Div input {
+	width: 194px;
+	height: 40px;
+}
+
+.Day1Div button {
+	width: 200px;
+	height: 40px;
+}
+
+
+
+
+
+
+
