@@ -36,7 +36,9 @@ const initialState = {
 	],
 	showHome: true,
 	Day1B: false,
-	Day2B: false
+	Day2A: true,
+	Day2B: false,
+	Day2C: false,
 }
 	
 const reducer = (state, action) => {
@@ -61,14 +63,23 @@ const reducer = (state, action) => {
 	}
 
 	if (action.type === 'VIEW_DAY_TWO_B') {
+		state.Day2A = false;
 		state.Day2B = true;
+		return {...state}
+	}
+
+	if (action.type === 'VIEW_DAY_TWO_C') {
+		state.Day2B = false;
+		state.Day2C = true;
 		return {...state}
 	}
 
 	if (action.type === 'SHOW_HOME') {
 		state.showHome = true;
 		state.Day1B = false;
+		state.Day2A = true;
 		state.Day2B = false;
+		state.Day2C = false;
 		let notFoundIt = true;
 		let counter = 0;
 		while (notFoundIt) {

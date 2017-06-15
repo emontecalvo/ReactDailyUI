@@ -38,5 +38,7 @@ class Day2 extends React.Component {
 export default connect((state, props) => ({
   dailyUIs: state.dailyUIs,  
   showHome: state.showHome,
-  Day2B: state.Day2B
+  Day2A: state.Day2A,
+  Day2B: state.Day2B,
+  Day2C: state.Day2C
 }))(Day2);

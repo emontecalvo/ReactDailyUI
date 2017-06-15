@@ -18,3 +18,7 @@ export const view_day_two = () => ({
 export const view_day_two_b = () => ({
 	type: 'VIEW_DAY_TWO_B'
 })
+
+export const view_day_two_c = () => ({
+	type: 'VIEW_DAY_TWO_C'
+})
