@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body {
   background-color: papayawhip;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Lato';
+	margin: 0;
+	padding: 0;
 }
 
 .PHONEDIV {
@@ -15,7 +24,11 @@ body {
   border-radius: 3px;
 }
 
-.Day1MainDiv {
+/* * * * * * * * */
+/* DAY 1*/
+/* * * * * * * * */
+
+.Day1MainDiv, .Day2MainDiv {
 	width: 360px;
   height: 640px;
 	background-repeat: no-repeat;
@@ -24,7 +37,6 @@ body {
 }
 
 .Day1Div {
-	font-family: sans-serif;
 	text-align: center;
 	/*center div*/
   position: absolute;
@@ -89,11 +101,89 @@ body {
 .Day1Btn i {
 	margin: 0;
 }
+/***      end of day 1     ***/
 
 
 
+/* * * * * * * * */
+/* DAY 2*/
+/* * * * * * * * */
 
+.Day2MainDiv {
+	background-image: url('./cookies.png');
+}
 
+.Day2Div {
+	text-align: center;
+	margin-top: 25%;
+	margin-left: 5%;
+  width: 90%;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.day2input_long input {
+	border: 0;
+  outline: 0;
+  background: transparent;
+	width: 90%;
+	height: 45px;
+}
+
+.day2input_short input {
+	background: transparent;
+}
+
+.day2input_short input {
+	border: 0;
+  outline: 0;
+  background: transparent;
+	width: 40%;
+	height: 45px;
+}
+
+.Day2Div i {
+	width: 20px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.day2input_long {
+	 border-bottom: 1px solid black;
+	 background-color: rgba(255, 255, 255, 0.5);
+}
+
+.day2input_short {
+	 border-bottom: 1px solid black;
+	 background-color: rgba(255, 255, 255, 0.25);
+}
+
+.day2input_long, .day2input_short i {
+	opacity: .5;
+}
+
+.day2input_long:hover, .day2input_short:hover i {
+	opacity: 1;
+	transition: opacity .5s ease;
+}
+
+.Day2Btn {
+	width: 50%;
+	height: 45px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.Day2Div button:hover {
+	border: none;
+	transform: scale(1.02);
+	background-color: white;
+	transition: background-color 1s ease;
+	color: black;
+}
+
+.Day2Div h2, h3 {
+	padding-top: 12px;
+}
 
 
 
