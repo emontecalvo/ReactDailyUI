@@ -249,6 +249,10 @@ h1, h2, h3 {
 /* DAY 4 */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+.Day4MainDiv {
+	background-color: #009688;
+}
+
 .Day4Div {
 	text-align: center;
 	/*center div*/
@@ -259,10 +263,37 @@ h1, h2, h3 {
   bottom: 0;
   left: 0;
   width: 95%;
-  height: 95%;
+  height: 97%;
   background-color: white;
 }
 
+.calcDiv {
+	width: 100%;
+	height: 90%;
+	background-color: #C5CAE9;
+}
+
+.calcBtn {
+	margin: 1%;
+	width: 22%;
+	height: 15%;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #009688;
+	background-color: #303F9F;
+	color: white;
+	font-size: 1.25em;
+	outline: 0.5px solid orange;
+}
+
+.calcDiv button:hover {
+	outline: none;
+	transform: scale(1.05);
+	transition: transform 1s ease;
+}
+
+/*.calcBtn button:active {
+	outline: 0.5px solid orange;
+}*/
 
 
 

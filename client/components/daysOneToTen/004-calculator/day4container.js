@@ -12,7 +12,6 @@ class Day4Container extends React.Component {
       return (
         <div className="PHONEDIV">
           <div className="Day4MainDiv">
-            <img src="./blue-rose.png" />
             <Day1 />
           </div>
         </div>
@@ -21,7 +20,6 @@ class Day4Container extends React.Component {
       return (
         <div className="PHONEDIV">
           <div className="Day4MainDiv">
-            <img src="./blue-rose.png" />
             <Day1b />
           </div>
         </div> 
