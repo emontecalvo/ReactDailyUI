@@ -29,3 +29,8 @@ export const view_day_three = () => ({
 export const view_day_three_b = () => ({
 	type: 'VIEW_DAY_THREE_B'
 })
+
+export const view_day_four = () => ({
+	type: 'VIEW_DAY_FOUR'
+})
+

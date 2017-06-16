@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import * as actions from '../../actions/actions';
+import * as actions from '../../../actions/actions';
 import Day2 from './day2';
 import Day2b from './day2b';
 import Day2c from './day2c';

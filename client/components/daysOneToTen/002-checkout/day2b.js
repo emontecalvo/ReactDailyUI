@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import * as actions from '../../actions/actions';
+import * as actions from '../../../actions/actions';
 
 
 class Day2b extends React.Component {

@@ -24,17 +24,17 @@ h1, h2, h3 {
   border-radius: 3px;
 }
 
-/* * * * * * * * */
-/* DAY 1*/
-/* * * * * * * * */
-
-.Day1MainDiv, .Day2MainDiv, .Day3MainDiv {
+.Day1MainDiv, .Day2MainDiv, .Day3MainDiv, .Day4MainDiv {
 	width: 360px;
   height: 640px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
 }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 1 */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .Day1Div {
 	text-align: center;
@@ -104,9 +104,9 @@ h1, h2, h3 {
 /***      end of day 1     ***/
 
 
-/* * * * * * * * */
-/* DAY 2*/
-/* * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 2 */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .Day2MainDiv {
 	background-image: url('./cookies.png');
@@ -187,9 +187,9 @@ h1, h2, h3 {
 /***      end of day 2     ***/
 
 
-/* * * * * * * * */
-/* DAY 3*/
-/* * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 3 */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .Day3MainDiv {
 	background-image: url('./coffee.png');
@@ -245,9 +245,23 @@ h1, h2, h3 {
 
 /***      end of day 3     ***/
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 4 */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-
-
+.Day4Div {
+	text-align: center;
+	/*center div*/
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+  background-color: white;
+}
 
 
 

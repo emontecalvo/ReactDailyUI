@@ -1,9 +1,9 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import * as actions from '../../actions/actions';
+import * as actions from '../../../actions/actions';
 
 
-class Day1b extends React.Component {
+class Day4b extends React.Component {
 
   showHome() {
     this.props.dispatch(actions.show_home());
@@ -27,4 +27,4 @@ export default connect((state, props) => ({
   dailyUIs: state.dailyUIs,  
   showHome: state.showHome,
   Day1B: state.Day1B
-}))(Day1b);
+}))(Day4b);

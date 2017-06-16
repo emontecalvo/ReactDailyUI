@@ -88,6 +88,12 @@ const reducer = (state, action) => {
 		return {...state}
 	}
 
+	if (action.type === 'VIEW_DAY_FOUR') {
+		state.showHome = false;
+		state.dailyUIs[3] = true;
+		return {...state}
+	}
+
 	if (action.type === 'SHOW_HOME') {
 		state.showHome = true;
 		state.Day1B = false;
