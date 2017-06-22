@@ -34,3 +34,8 @@ export const view_day_four = () => ({
 	type: 'VIEW_DAY_FOUR'
 })
 
+export const view_day_five = () => ({
+	type: 'VIEW_DAY_FIVE'
+})
+
+

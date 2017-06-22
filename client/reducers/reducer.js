@@ -40,7 +40,7 @@ const initialState = {
 	Day2B: false,
 	Day2C: false,
 	Day3A: true,
-	Day3B: false
+	Day3B: false,
 }
 	
 const reducer = (state, action) => {
@@ -91,6 +91,12 @@ const reducer = (state, action) => {
 	if (action.type === 'VIEW_DAY_FOUR') {
 		state.showHome = false;
 		state.dailyUIs[3] = true;
+		return {...state}
+	}
+
+	if (action.type === 'VIEW_DAY_FIVE') {
+		state.showHome = false;
+		state.dailyUIs[4] = true;
 		return {...state}
 	}
 
