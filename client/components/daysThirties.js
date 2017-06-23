@@ -7,19 +7,19 @@ class DaysThirties extends React.Component {
 
   render() { 
     return (
-      <div>
+      <div className="tenButtons">
         <h3>Day 031-040 </h3>
         <ul>
-          <button>DailyUI 001 - "Sign-up"</button>
-          <button>DailyUI 002 - "Checkout"</button>
-          <button>DailyUI 003 - "Landing Page"</button>
-          <button>DailyUI 004 - "Calculator"</button>
-          <button>DailyUI 005 - "App Icon"</button>
-          <button>DailyUI 006 - "User Profile"</button>
-          <button>DailyUI 007 - "Settings"</button>
-          <button>DailyUI 008 - "404 Page"</button>
-          <button>DailyUI 009 - "Music Player"</button>
-          <button>DailyUI 010 - "Social Share"</button>
+          <button>DailyUI 031 - "File Upload"</button>
+          <button>DailyUI 032 - "Crowd Fund"</button>
+          <button>DailyUI 033 - "Customize"</button>
+          <button>DailyUI 034 - "Car Dashboard"</button>
+          <button>DailyUI 035 - "Blog"</button>
+          <button>DailyUI 036 - "Special Offer"</button>
+          <button>DailyUI 037 - "Weather"</button>
+          <button>DailyUI 038 - "Calendar"</button>
+          <button>DailyUI 039 - "Testimonial"</button>
+          <button>DailyUI 040 - "Recipe"</button>
         </ul>
 
       </div>

@@ -27,7 +27,7 @@ class DaysOnes extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="tenButtons">
         <h3>Day 001-010 </h3>
         <ul>
           <button onClick={() => this.dayOne()}>DailyUI 001 - "Sign-up"</button>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-  background-color: papayawhip;
+  background-color: #dbe3f9;
   font-family: 'Lato', sans-serif;
 }
 
@@ -13,6 +13,30 @@ h1, h2, h3 {
 
 button {
 	cursor: pointer;
+}
+
+.tenButtons {
+	display: inline;
+}
+
+.tenButtons button {
+	opacity: 0.8;
+	color: white;
+	background-image: linear-gradient(#ccd8f7, #2353d4);
+	border-radius: 4px;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	height: 50px;
+}
+
+.tenButtons button:hover {
+	border: none;
+	transform: scale(1.02);
+	background-color: #3D30F9;
+	background-image: none;
+	transition: background-color 1s ease;
+	color: white;
 }
 
 .PHONEDIV {
@@ -340,8 +364,38 @@ button {
 }
 
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+	.tenButtons button {
+		margin: 0;
+		padding: 0;
+		width: 30%;
+		height: 50px;
+	}
+}
 
+@media screen and (max-width: 620px) {
+	.tenButtons button {
+		font-size: 0.5em;
+	}
+}
 
+@media screen and (max-width: 320px) {
+	.tenButtons button {
+		width: 40%;
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 200px) {
+	.tenButtons button {
+		width: 50%;
+		height: 50px;
+		font-size: 0.25em;
+	}
+}
+
+/* END OF MEDIA QUERIES*/
 
 
 /*   Day 5 animations */

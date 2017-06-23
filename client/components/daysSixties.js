@@ -7,19 +7,19 @@ class DaysSixties extends React.Component {
 
   render() { 
     return (
-      <div>
+      <div className="tenButtons">
         <h3>Day 061-070 </h3>
         <ul>
-          <button>DailyUI 001 - "Sign-up"</button>
-          <button>DailyUI 002 - "Checkout"</button>
-          <button>DailyUI 003 - "Landing Page"</button>
-          <button>DailyUI 004 - "Calculator"</button>
-          <button>DailyUI 005 - "App Icon"</button>
-          <button>DailyUI 006 - "User Profile"</button>
-          <button>DailyUI 007 - "Settings"</button>
-          <button>DailyUI 008 - "404 Page"</button>
-          <button>DailyUI 009 - "Music Player"</button>
-          <button>DailyUI 010 - "Social Share"</button>
+          <button>DailyUI 061 - "Redeem Coupon"</button>
+          <button>DailyUI 062 - "Workout of the Day"</button>
+          <button>DailyUI 063 - "Best-Of-2015"</button>
+          <button>DailyUI 064 - "Select User Type"</button>
+          <button>DailyUI 065 - "Notes-Widget"</button>
+          <button>DailyUI 066 - "Statistics"</button>
+          <button>DailyUI 067 - "Hotel Booking"</button>
+          <button>DailyUI 068 - "Flight Search"</button>
+          <button>DailyUI 069 - "Trending"</button>
+          <button>DailyUI 070 - "Event Listing"</button>
         </ul>
 
       </div>
