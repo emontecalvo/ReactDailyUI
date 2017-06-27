@@ -46,4 +46,10 @@ export const add_follower = () => ({
 	type: 'ADD_FOLLOWER'
 })
 
+export const view_day_seven = () => ({
+	type: 'VIEW_DAY_SEVEN'
+})
 
+export const view_day_eight = () => ({
+	type: 'VIEW_DAY_EIGHT'
+})

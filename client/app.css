@@ -52,7 +52,7 @@ button {
   border-radius: 3px;
 }
 
-.Day1MainDiv, .Day2MainDiv, .Day3MainDiv, .Day4MainDiv, .Day5MainDiv, .Day6MainDiv {
+.Day1MainDiv, .Day2MainDiv, .Day3MainDiv, .Day4MainDiv, .Day5MainDiv, .Day6MainDiv, .Day8MainDiv {
 	width: 360px;
   height: 640px;
 	background-repeat: no-repeat;
@@ -478,8 +478,67 @@ button {
 /***      end of day 6     ***/
 
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 7 - settings */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/***      end of day 7     ***/
 
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 8 - 404 */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.Day8MainDiv {
+  background-image: url('./bckgrnd_ida.png');
+  color: white;
+}
+
+.Day8Div {
+	text-align: center;
+}
+
+.Day8Div p:nth-child(1) {
+	font-size: 2.5em;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	padding: 0;
+}
+
+.Day8Div p:nth-child(2) {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.Day8Div p:nth-child(3) {
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 2%;
+	padding: 0;
+}
+
+.Day8BtnDiv button {
+	width: 50%;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.01);
+	transition: background-color 2s ease;
+	border: 1px solid white;
+	color: white;
+	font-size: 0.9em;
+	font-style: none;
+	border-radius: 4px;
+}
+
+.Day8BtnDiv button:hover {
+	border: none;
+	transform: scale(0.9);
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: background-color 2s ease;
+}
+
+
+/***      end of day 8     ***/
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 800px) {

@@ -123,6 +123,18 @@ const reducer = (state, action) => {
 		}
 	}
 
+	if (action.type === 'VIEW_DAY_SEVEN') {
+		state.showHome = false;
+		state.dailyUIs[6] = true;
+		return {...state}
+	}
+
+	if (action.type === 'VIEW_DAY_EIGHT') {
+		state.showHome = false;
+		state.dailyUIs[7] = true;
+		return {...state}
+	}
+
 	if (action.type === 'SHOW_HOME') {
 		state.showHome = true;
 		state.Day1B = false;
