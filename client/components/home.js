@@ -17,6 +17,7 @@ import Day2Container from './daysOneToTen/002-checkout/day2container';
 import Day3Container from './daysOneToTen/003-landing-page/day3container';
 import Day4Container from './daysOneToTen/004-calculator/day4container';
 import Day5Container from './daysOneToTen/005-app-icon/day5container';
+import Day6Container from './daysOneToTen/006-user-profile/day6container';
 
 class Home extends React.Component {
 
@@ -88,6 +89,12 @@ class Home extends React.Component {
         return (
           <div>
             <Day5Container />
+          </div>
+        )
+      } else if (this.props.dailyUIs[5]) {
+        return (
+          <div>
+            <Day6Container />
           </div>
         )
       }

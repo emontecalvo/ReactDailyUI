@@ -25,6 +25,10 @@ class DaysOnes extends React.Component {
     this.props.dispatch(actions.view_day_five());
   }
 
+  daySix() {
+    this.props.dispatch(actions.view_day_six());
+  }
+
   render() {
     return (
       <div className="tenButtons">
@@ -35,7 +39,7 @@ class DaysOnes extends React.Component {
           <button onClick={() => this.dayThree()}>DailyUI 003 - "Landing Page"</button>
           <button onClick={() => this.dayFour()}>DailyUI 004 - "Calculator"</button>
           <button onClick={() => this.dayFive()}>DailyUI 005 - "App Icon"</button>
-          <button>DailyUI 006 - "User Profile"</button>
+          <button onClick={() => this.daySix()}>DailyUI 006 - "User Profile"</button>
           <button>DailyUI 007 - "Settings"</button>
           <button>DailyUI 008 - "404 Page"</button>
           <button>DailyUI 009 - "Music Player"</button>

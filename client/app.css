@@ -52,7 +52,7 @@ button {
   border-radius: 3px;
 }
 
-.Day1MainDiv, .Day2MainDiv, .Day3MainDiv, .Day4MainDiv, .Day5MainDiv {
+.Day1MainDiv, .Day2MainDiv, .Day3MainDiv, .Day4MainDiv, .Day5MainDiv, .Day6MainDiv {
 	width: 360px;
   height: 640px;
 	background-repeat: no-repeat;
@@ -364,6 +364,124 @@ button {
 }
 
 
+/***      end of day 5     ***/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 6 - user profile */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.Day6MainDiv {
+  background: red -webkit-linear-gradient(top, black, black 50%, transparent);
+  background: red linear-gradient(180deg, #0f1349, #0f1349 50%, transparent);
+  -webkit-animation: colorMove linear infinite 10s;
+  animation: colorMove linear infinite 10s;
+  color: white;
+}
+
+.Day6MainDiv p:nth-child(2) {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+.Day6MainDiv p:nth-child(3) {
+	font-size: 0.8em;
+	margin-top: 0;
+	padding: 0;
+}
+
+.Day6Img {
+	background-image: url('./princess_profile.png');
+	text-align: center;
+	background-repeat: no-repeat;
+	/* center an image in a div: */
+  width: 150px;
+  height: 150px;
+  margin-left: 25%;
+  background-position: center center;
+}
+
+.Day6Div {
+	text-align: center;
+	margin-top: 15%;
+	margin-left: 10%;
+	padding-top: 20px;
+  width: 300px;
+  height: 200px;
+/*  background: red -webkit-linear-gradient(bottom, black, black 50%, transparent);
+  background: red linear-gradient(0deg, black, black 50%, transparent);
+  -webkit-animation: colorMove linear infinite 10s;
+  animation: colorMove linear infinite 10s;*/
+	background-image: url('./never_ending_bckgrnd.png');
+}
+
+.Day6Div:hover {
+  background-image: linear-gradient(#FFC107, #448AFF);
+	transition: background-image: 1s ease;
+	animation: colorchange 4s;
+  -webkit-animation: colorchange 4s; /* Chrome and Safari */
+}
+
+
+.Day6BtnDiv {
+	position: absolute;
+	bottom: 10%;
+	width: 80%;
+	left: 10%;
+}
+
+.Day6BtnDiv button {
+	width: 100%;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.01);
+	transition: background-color 2s ease;
+	border: 1px solid white;
+	color: white;
+	font-size: 0.9em;
+	font-style: none;
+	border-radius: 4px;
+}
+
+.Day6BtnDiv button:hover {
+	border: none;
+	transform: scale(0.9);
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: background-color 2s ease;
+}
+
+.Day6BtnDiv button:nth-child(1):hover span {
+	display: none;
+}
+
+.Day6BtnDiv button:nth-child(1):hover:before {
+	content: "following:  10";
+}
+
+.Day6BtnDiv button:nth-child(4):hover span {
+	display: none;
+}
+
+.Day6BtnDiv button:nth-child(4):hover:before {
+	content: "your imagination";
+}
+
+.Day6BtnDiv button:nth-child(5):hover span {
+	display: none;
+}
+
+.Day6BtnDiv button:nth-child(5):hover:before {
+	content: "read a book";
+}
+
+
+
+
+/***      end of day 6     ***/
+
+
+
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 800px) {
 	.tenButtons button {
@@ -446,4 +564,6 @@ button {
 }
 
 /* end of day 5 animations */
+
+
 

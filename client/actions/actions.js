@@ -38,4 +38,12 @@ export const view_day_five = () => ({
 	type: 'VIEW_DAY_FIVE'
 })
 
+export const view_day_six = () => ({
+	type: 'VIEW_DAY_SIX'
+})
+
+export const add_follower = () => ({
+	type: 'ADD_FOLLOWER'
+})
+
 

@@ -41,6 +41,9 @@ const initialState = {
 	Day2C: false,
 	Day3A: true,
 	Day3B: false,
+	Day6Follow: 4356201,
+	Day6FollowBool: false,
+	Day6FollowBtn: "follow",
 }
 	
 const reducer = (state, action) => {
@@ -98,6 +101,26 @@ const reducer = (state, action) => {
 		state.showHome = false;
 		state.dailyUIs[4] = true;
 		return {...state}
+	}
+
+	if (action.type === 'VIEW_DAY_SIX') {
+		state.showHome = false;
+		state.dailyUIs[5] = true;
+		return {...state}
+	}
+
+	if (action.type === 'ADD_FOLLOWER') {
+		if (!state.Day6FollowBool) {
+			state.Day6Follow += 1;
+			state.Day6FollowBool = true;
+			state.Day6FollowBtn = "unfollow";
+			return {...state}
+		} else {
+			state.Day6Follow -= 1;
+			state.Day6FollowBool = false;
+			state.Day6FollowBtn = "follow";
+			return {...state}
+		}
 	}
 
 	if (action.type === 'SHOW_HOME') {
