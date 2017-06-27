@@ -408,20 +408,21 @@ button {
 	padding-top: 20px;
   width: 300px;
   height: 200px;
-/*  background: red -webkit-linear-gradient(bottom, black, black 50%, transparent);
-  background: red linear-gradient(0deg, black, black 50%, transparent);
-  -webkit-animation: colorMove linear infinite 10s;
-  animation: colorMove linear infinite 10s;*/
 	background-image: url('./never_ending_bckgrnd.png');
+	/* grayscale setup*/
+	filter: grayscale(0%);
+	filter: gray;
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: all 1s ease;
 }
 
 .Day6Div:hover {
-  background-image: linear-gradient(#FFC107, #448AFF);
-	transition: background-image: 1s ease;
-	animation: colorchange 4s;
-  -webkit-animation: colorchange 4s; /* Chrome and Safari */
+	/* grayscale on hover */
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition: 1s ease;
 }
-
 
 .Day6BtnDiv {
 	position: absolute;
@@ -472,8 +473,6 @@ button {
 .Day6BtnDiv button:nth-child(5):hover:before {
 	content: "read a book";
 }
-
-
 
 
 /***      end of day 6     ***/
