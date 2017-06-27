@@ -16,6 +16,36 @@ class Day8 extends React.Component {
   render() { 
     return (
         <div className="Day8Div">
+          <div className="fallingTriangle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
           <p>404</p>
           <p>sacred geometry</p>
           <p>not found here</p>
