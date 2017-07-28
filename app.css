@@ -1,0 +1,740 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  background-color: #dbe3f9;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Lato';
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+.tenButtons {
+	display: inline;
+}
+
+.tenButtons button {
+	opacity: 0.8;
+	color: white;
+	background-image: linear-gradient(#ccd8f7, #2353d4);
+	border-radius: 4px;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	height: 50px;
+}
+
+.tenButtons button:hover {
+	border: none;
+	transform: scale(1.02);
+	background-color: #3D30F9;
+	background-image: none;
+	transition: background-color 1s ease;
+	color: white;
+}
+
+.tenButtons2 {
+	max-width: 400px;
+}
+
+.tenButtons2 button {
+	opacity: 0.8;
+	color: white;
+	background-image: linear-gradient(#ccd8f7, #2353d4);
+	border-radius: 4px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	padding: 10px;
+	width: 100%;
+	height: 50px;
+}
+
+.tenButtons2 button:hover {
+	border: none;
+	transform: scale(1.02);
+	background-color: #3D30F9;
+	background-image: none;
+	transition: background-color 1s ease;
+	color: white;
+}
+
+.PHONEDIV {
+	position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 360px;
+  height: 640px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+.Day1MainDiv, .Day2MainDiv, .Day3MainDiv, .Day4MainDiv, .Day5MainDiv, .Day6MainDiv, .Day8MainDiv {
+	width: 360px;
+  height: 640px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 1 - "sign-up" */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.Day1Div {
+	text-align: center;
+	/*center div*/
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+.Day1Bpara {
+	font-size: 1.75em;
+}
+
+.Day1Div input {
+	border: 0;
+  outline: 0;
+  background: transparent;
+	width: 165px;
+	height: 40px;
+}
+
+.Day1Div i {
+	width: 20px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.Day1Div button {
+	width: 200px;
+	height: 40px;
+}
+
+.Day1Div button:hover {
+	border: none;
+	transform: scale(1.02);
+	background-color: #3D30F9;
+	transition: background-color 1s ease;
+	color: white;
+}
+
+.day1input {
+	 border-bottom: 1px solid black;
+}
+
+.day1input i {
+	opacity: .5;
+}
+
+.day1input:hover i {
+	opacity: 1;
+	transition: opacity .5s ease;
+}
+
+.Day1Btn {
+	text-align: center;
+}
+
+.Day1Btn i {
+	margin: 0;
+}
+/***      end of day 1     ***/
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 2 - checkout */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.Day2MainDiv {
+	background-image: url('./cookies.png');
+}
+
+.Day2Div {
+	text-align: center;
+	margin-top: 25%;
+	margin-left: 5%;
+  width: 90%;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.day2input_long input {
+	border: 0;
+  outline: 0;
+  background: transparent;
+	width: 90%;
+	height: 45px;
+}
+
+.day2input_short input {
+	background: transparent;
+}
+
+.day2input_short input {
+	border: 0;
+  outline: 0;
+  background: transparent;
+	width: 40%;
+	height: 45px;
+}
+
+.Day2Div i {
+	width: 20px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.day2input_long {
+	 border-bottom: 1px solid black;
+	 background-color: rgba(255, 255, 255, 0.5);
+}
+
+.day2input_short {
+	 border-bottom: 1px solid black;
+	 background-color: rgba(255, 255, 255, 0.25);
+}
+
+.day2input_long, .day2input_short i {
+	opacity: .5;
+}
+
+.day2input_long:hover, .day2input_short:hover i {
+	opacity: 1;
+	transition: opacity .5s ease;
+}
+
+.Day2Btn {
+	width: 50%;
+	height: 45px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.Day2Div button:hover {
+	border: none;
+	transform: scale(1.02);
+	background-color: white;
+	transition: background-color 1s ease;
+	color: black;
+}
+
+.Day2Div h2, h3 {
+	padding-top: 12px;
+}
+
+/***      end of day 2     ***/
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 3 landing page*/
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.Day3MainDiv {
+	background-image: url('./coffee.png');
+}
+
+.Day3Div p {
+	font-size: 1em;
+	font-style: none;
+}
+
+.Day3Div {
+	text-align: center;
+	/*center div*/
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 150px;
+  background-color: transparent;
+  font-size: 1.3em;
+  color: white;
+}
+
+.Day3BtnDiv {
+	position: absolute;
+	bottom: 15%;
+	width: 70%;
+	left: 15%;
+}
+
+.Day3BtnDiv button {
+	width: 100%;
+	height: 80px;
+	background-color: rgba(255, 255, 255, 0.01);
+	transition: background-color 2s ease;
+	border: 1px solid white;
+	color: white;
+	font-size: 0.9em;
+	font-style: none;
+	border-radius: 4px;
+}
+
+.Day3BtnDiv button:hover {
+	border: none;
+	transform: scale(0.9);
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: background-color 2s ease;
+	color: black;
+}
+
+/***      end of day 3     ***/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 4 calculator */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.Day4MainDiv {
+	background-color: #009688;
+}
+
+.Day4Div {
+	text-align: center;
+	/*center div*/
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height: 97%;
+  background-color: white;
+}
+
+.calcDiv {
+	width: 100%;
+	height: 90%;
+	background-color: #C5CAE9;
+}
+
+.calcBtn {
+	margin: 1%;
+	width: 22%;
+	height: 15%;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #009688;
+	background-color: #303F9F;
+	color: white;
+	font-size: 1.25em;
+	outline: 0.5px solid orange;
+}
+
+.calcDiv button:hover {
+	outline: none;
+	transform: scale(1.05);
+	transition: transform 1s ease;
+}
+
+/***      end of day 4     ***/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 5 - app icon */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.Day5MainDiv {
+  background: red -webkit-linear-gradient(top, black, black 50%, transparent);
+  background: red linear-gradient(180deg, black, black 50%, transparent);
+  -webkit-animation: colorMove linear infinite 10s;
+  animation: colorMove linear infinite 10s;
+}
+
+.Day5Div {
+	text-align: center;
+	margin-top: 25%;
+	margin-left: 10%;
+	padding-top: 20px;
+  width: 300px;
+  height: 300px;
+  background: red -webkit-linear-gradient(bottom, black, black 50%, transparent);
+  background: red linear-gradient(0deg, black, black 50%, transparent);
+  -webkit-animation: colorMove linear infinite 10s;
+  animation: colorMove linear infinite 10s;
+}
+
+.Day5Div:hover {
+  background-image: linear-gradient(#FFC107, #448AFF);
+	transition: background-image: 1s ease;
+	animation: colorchange 4s;
+  -webkit-animation: colorchange 4s; /* Chrome and Safari */
+}
+
+.Day5Img {
+	background-image: url('./it-icon.png');
+	text-align: center;
+	background-repeat: no-repeat;
+	/* center an image in a div: */
+  width: 250px;
+  height: 250px;
+  margin-left: 8%;
+  background-position: center center;
+}
+
+
+/***      end of day 5     ***/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 6 - user profile */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.Day6MainDiv {
+  background: red -webkit-linear-gradient(top, black, black 50%, transparent);
+  background: red linear-gradient(180deg, #0f1349, #0f1349 50%, transparent);
+  -webkit-animation: colorMove linear infinite 10s;
+  animation: colorMove linear infinite 10s;
+  color: white;
+}
+
+.Day6MainDiv p:nth-child(2) {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+.Day6MainDiv p:nth-child(3) {
+	font-size: 0.8em;
+	margin-top: 0;
+	padding: 0;
+}
+
+.Day6Img {
+	background-image: url('./princess_profile.png');
+	text-align: center;
+	background-repeat: no-repeat;
+	/* center an image in a div: */
+  width: 150px;
+  height: 150px;
+  margin-left: 25%;
+  background-position: center center;
+}
+
+.Day6Div {
+	text-align: center;
+	margin-top: 15%;
+	margin-left: 10%;
+	padding-top: 20px;
+  width: 300px;
+  height: 200px;
+	background-image: url('./never_ending_bckgrnd.png');
+	/* grayscale setup*/
+	filter: grayscale(0%);
+	filter: gray;
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: all 1s ease;
+}
+
+.Day6Div:hover {
+	/* grayscale on hover */
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition: 1s ease;
+}
+
+.Day6BtnDiv {
+	position: absolute;
+	bottom: 10%;
+	width: 80%;
+	left: 10%;
+}
+
+.Day6BtnDiv button {
+	width: 100%;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.01);
+	transition: background-color 2s ease;
+	border: 1px solid white;
+	color: white;
+	font-size: 0.9em;
+	font-style: none;
+	border-radius: 4px;
+}
+
+.Day6BtnDiv button:hover {
+	border: none;
+	transform: scale(0.9);
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: background-color 2s ease;
+}
+
+.Day6BtnDiv button:nth-child(1):hover span {
+	display: none;
+}
+
+.Day6BtnDiv button:nth-child(1):hover:before {
+	content: "following:  10";
+}
+
+.Day6BtnDiv button:nth-child(4):hover span {
+	display: none;
+}
+
+.Day6BtnDiv button:nth-child(4):hover:before {
+	content: "your imagination";
+}
+
+.Day6BtnDiv button:nth-child(5):hover span {
+	display: none;
+}
+
+.Day6BtnDiv button:nth-child(5):hover:before {
+	content: "read a book";
+}
+
+
+/***      end of day 6     ***/
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 7 - settings */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/***      end of day 7     ***/
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+/* DAY 8 - 404 */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.Day8MainDiv {
+  background-image: url('./bckgrnd_ida.png');
+  color: white;
+}
+
+.Day8Div {
+	text-align: center;
+}
+
+.Day8Div p:nth-child(1) {
+	font-size: 2.5em;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	padding: 0;
+}
+
+.Day8Div p:nth-child(2) {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.Day8Div p:nth-child(3) {
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 2%;
+	padding: 0;
+}
+
+.Day8BtnDiv button {
+	width: 50%;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.01);
+	transition: background-color 2s ease;
+	border: 1px solid white;
+	color: white;
+	font-size: 0.9em;
+	font-style: none;
+	border-radius: 4px;
+}
+
+.Day8BtnDiv button:hover {
+	border: none;
+	transform: scale(0.9);
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: background-color 2s ease;
+}
+
+.fallingTriangle {
+  text-align: center;
+}
+
+.fallingTriangle span {
+	display: inline-block;
+  width: 10px;
+  height: 10px;
+	margin: -280px 40px 54px  -34px;
+	background: url("./infinity-triangle.png");
+    
+  -webkit-animation: fallingTriangles 10s infinite  linear;
+  -moz-animation: fallingTriangles 10s infinite  linear;
+}
+
+.fallingTriangle span:nth-child(5n+5) {
+	-webkit-animation-delay: 1.3s;
+	-moz-animation-delay: 1.3s;
+}
+
+.fallingTriangle span:nth-child(3n+2) {
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+}
+
+.fallingTriangle span:nth-child(2n+5) {
+	-webkit-animation-delay: 1.7s;
+	-moz-animation-delay: 1.7s;
+}
+
+.fallingTriangle span:nth-child(3n+10) {
+	-webkit-animation-delay: 2.7s;
+ 	-moz-animation-delay: 2.7s;
+}
+
+.fallingTriangle span:nth-child(7n+2) {
+	-webkit-animation-delay: 3.5s;
+	-moz-animation-delay: 3.5s;
+}
+
+.fallingTriangle span:nth-child(4n+5) {
+	-webkit-animation-delay: 5.5s;
+	-moz-animation-delay: 5.5s;
+}
+
+.fallingTriangle span:nth-child(3n+7) {
+	-webkit-animation-delay: 8s;
+	-moz-animation-delay: 8s;
+}
+
+/***      end of day 8     ***/
+
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+	.tenButtons button {
+		margin: 0;
+		padding: 0;
+		width: 30%;
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.tenButtons button {
+		font-size: 0.5em;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.tenButtons button {
+		width: 40%;
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 200px) {
+	.tenButtons button {
+		width: 50%;
+		height: 50px;
+		font-size: 0.25em;
+	}
+}
+
+/* END OF MEDIA QUERIES*/
+
+
+/*   Day 5 animations */
+@keyframes colorchange {
+  0%   {background: #fff; transition: background 0.5s ease;}
+  25%   {background: #ccc; transition: background 0.5s ease;}
+  50%   {background: orange; transition: background 0.5s ease;}
+  75%   {background: #FBC02D; transition: background 0.5s ease;}
+  100%   {background: #536DFE; transition: background 0.5s ease;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */ {
+  0%   {background: #fff; transition: background 0.5s ease;}
+  25%   {background: #ccc; transition: background 0.5s ease;}
+  50%   {background: orange; transition: background 0.5s ease;}
+  75%   {background: #FBC02D; transition: background 0.5s ease;}
+  100%   {background: #536DFE; transition: background 0.5s ease;}
+}
+
+@keyframes colorMove {
+    0% {
+      background-color: hsl(0, 100%, 50%);
+    }
+    50% {
+      background-color: hsl(120, 100%, 50%);
+    }
+    75% {
+      background-color: hsl(240, 100%, 50%);
+    }
+    100% {
+      background-color: hsl(360, 100%, 50%);
+    }
+}
+
+@-webkit-keyframes colorMove {
+    0% {
+      background-color: hsl(0, 100%, 50%);
+    }
+    50% {
+      background-color: hsl(120, 100%, 50%);
+    }
+    75% {
+      background-color: hsl(240, 100%, 50%);
+    }
+    100% {
+      background-color: hsl(360, 100%, 50%);
+    }
+}
+
+/* end of day 5 animations */
+
+/* day 8 animations */
+@-webkit-keyframes fallingTriangles {
+  0% {
+    opacity: 1;
+
+	-webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    opacity: 1;
+
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    opacity: 0;
+
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+@-moz-keyframes fallingTriangles {
+  0% {
+    opacity: 1;
+    
+	-webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    opacity: 1;
+   
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    opacity: 0;
+    
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+/* end of day 8 animations */
